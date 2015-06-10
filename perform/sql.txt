@@ -1,0 +1,1024 @@
+name
+post
+doj
+do
+ps1
+pn1
+pp1
+ps2
+pn2
+pp2
+ps3
+pn3
+pp3
+effort
+speak
+read
+write
+s1
+s2
+s3
+s4
+s5
+s6
+s7
+s8
+s9
+s10
+s11
+a1
+a2
+a3
+a4
+a5
+a6
+a7
+a8
+a9
+a10
+b1
+b2
+b3
+b4
+b5
+b6
+b7
+b8
+b9
+b10
+c1
+c2
+c3
+c4
+c5
+c6
+c7
+c8
+c9
+c10
+d1
+d2
+d3
+d4
+d5
+d6
+d7
+d8
+d9
+d10
+e1
+e2
+e3
+e4
+e5
+e6
+e7
+e8
+e9
+e10
+f1
+f2
+f3
+f4
+f5
+f6
+f7
+f8
+f9
+f10
+g1
+g2
+g3
+g4
+g5
+g6
+g7
+g8
+g9
+g10
+h1
+h2
+h3
+h4
+h5
+h6
+h7
+h8
+h9
+h10
+
+
+la1
+la2
+la3
+la4
+la5
+la6
+la7
+la8
+la9
+la10
+lb1
+lb2
+lb3
+lb4
+lb5
+lb6
+lb7
+lb8
+lb9
+lb10
+
+lc1
+lc2
+lc3
+lc4
+lc5
+lc6
+lc7
+lc8
+lc9
+lc10
+
+ld1
+ld2
+ld3
+ld4
+ld5
+ld6
+ld7
+ld8
+ld9
+ld10
+
+le1
+le2
+le3
+le4
+le5
+le6
+le7
+le8
+le9
+le10
+
+lf1
+lf2
+lf3
+lf4
+lf5
+lf6
+lf7
+lf8
+lf9
+lf10
+
+pa1
+pa2
+pa3
+pa4
+
+pb1
+pb2
+pb3
+pb4
+
+pc1
+pc2
+pc3
+pc4
+
+pd1
+pd2
+pd3
+pd4
+
+
+pe1
+pe2
+pe3
+pe4
+
+pf1
+pf2
+pf3
+pf4
+
+createtablereg(name	varchar(100),
+post	varchar(100),
+doj	varchar(100),
+do	varchar(100),
+ps1	varchar(100),
+pn1	varchar(100),
+pp1	varchar(100),
+ps2	varchar(100),
+pn2	varchar(100),
+pp2	varchar(100),
+ps3	varchar(100),
+pn3	varchar(100),
+pp3	varchar(100),
+effort	varchar(100),
+speak	varchar(100),
+read	varchar(100),
+write	varchar(100),
+s1	varchar(100),
+s2	varchar(100),
+s3	varchar(100),
+s4	varchar(100),
+s5	varchar(100),
+s6	varchar(100),
+s7	varchar(100),
+s8	varchar(100),
+s9	varchar(100),
+s10	varchar(100),
+s11	varchar(100),
+a1	varchar(100),
+a2	varchar(100),
+a3	varchar(100),
+a4	varchar(100),
+a5	varchar(100),
+a6	varchar(100),
+a7	varchar(100),
+a8	varchar(100),
+a9	varchar(100),
+a10	varchar(100),
+b1	varchar(100),
+b2	varchar(100),
+b3	varchar(100),
+b4	varchar(100),
+b5	varchar(100),
+b6	varchar(100),
+b7	varchar(100),
+b8	varchar(100),
+b9	varchar(100),
+b10	varchar(100),
+c1	varchar(100),
+c2	varchar(100),
+c3	varchar(100),
+c4	varchar(100),
+c5	varchar(100),
+c6	varchar(100),
+c7	varchar(100),
+c8	varchar(100),
+c9	varchar(100),
+c10	varchar(100),
+d1	varchar(100),
+d2	varchar(100),
+d3	varchar(100),
+d4	varchar(100),
+d5	varchar(100),
+d6	varchar(100),
+d7	varchar(100),
+d8	varchar(100),
+d9	varchar(100),
+d10	varchar(100),
+e1	varchar(100),
+e2	varchar(100),
+e3	varchar(100),
+e4	varchar(100),
+e5	varchar(100),
+e6	varchar(100),
+e7	varchar(100),
+e8	varchar(100),
+e9	varchar(100),
+e10	varchar(100),
+f1	varchar(100),
+f2	varchar(100),
+f3	varchar(100),
+f4	varchar(100),
+f5	varchar(100),
+f6	varchar(100),
+f7	varchar(100),
+f8	varchar(100),
+f9	varchar(100),
+f10	varchar(100),
+g1	varchar(100),
+g2	varchar(100),
+g3	varchar(100),
+g4	varchar(100),
+g5	varchar(100),
+g6	varchar(100),
+g7	varchar(100),
+g8	varchar(100),
+g9	varchar(100),
+g10	varchar(100),
+h1	varchar(100),
+h2	varchar(100),
+h3	varchar(100),
+h4	varchar(100),
+h5	varchar(100),
+h6	varchar(100),
+h7	varchar(100),
+h8	varchar(100),
+h9	varchar(100),
+h10	varchar(100),
+	
+	
+la1	varchar(100),
+la2	varchar(100),
+la3	varchar(100),
+la4	varchar(100),
+la5	varchar(100),
+la6	varchar(100),
+la7	varchar(100),
+la8	varchar(100),
+la9	varchar(100),
+la10	varchar(100),
+lb1	varchar(100),
+lb2	varchar(100),
+lb3	varchar(100),
+lb4	varchar(100),
+lb5	varchar(100),
+lb6	varchar(100),
+lb7	varchar(100),
+lb8	varchar(100),
+lb9	varchar(100),
+lb10	varchar(100),
+	
+lc1	varchar(100),
+lc2	varchar(100),
+lc3	varchar(100),
+lc4	varchar(100),
+lc5	varchar(100),
+lc6	varchar(100),
+lc7	varchar(100),
+lc8	varchar(100),
+lc9	varchar(100),
+lc10	varchar(100),
+	
+ld1	varchar(100),
+ld2	varchar(100),
+ld3	varchar(100),
+ld4	varchar(100),
+ld5	varchar(100),
+ld6	varchar(100),
+ld7	varchar(100),
+ld8	varchar(100),
+ld9	varchar(100),
+ld10	varchar(100),
+	
+le1	varchar(100),
+le2	varchar(100),
+le3	varchar(100),
+le4	varchar(100),
+le5	varchar(100),
+le6	varchar(100),
+le7	varchar(100),
+le8	varchar(100),
+le9	varchar(100),
+le10	varchar(100),
+	
+lf1	varchar(100),
+lf2	varchar(100),
+lf3	varchar(100),
+lf4	varchar(100),
+lf5	varchar(100),
+lf6	varchar(100),
+lf7	varchar(100),
+lf8	varchar(100),
+lf9	varchar(100),
+lf10	varchar(100),
+	
+pa1	varchar(100),
+pa2	varchar(100),
+pa3	varchar(100),
+pa4	varchar(100),
+	
+pb1	varchar(100),
+pb2	varchar(100),
+pb3	varchar(100),
+pb4	varchar(100),
+	
+pc1	varchar(100),
+pc2	varchar(100),
+pc3	varchar(100),
+pc4	varchar(100),
+	
+pd1	varchar(100),
+pd2	varchar(100),
+pd3	varchar(100),
+pd4	varchar(100),
+	
+	
+pe1	varchar(100),
+pe2	varchar(100),
+pe3	varchar(100),
+pe4	varchar(100),
+	
+pf1	varchar(100),
+pf2	varchar(100),
+pf3	varchar(100),
+pf4	varchar(100));
+
+--------correct---------------------
+----------------------------
+createtablereg(name	varchar(100),
+post	varchar(100),
+doj	varchar(100),
+do	varchar(100),
+ps1	varchar(100),
+pn1	varchar(100),
+pp1	varchar(100),
+ps2	varchar(100),
+pn2	varchar(100),
+pp2	varchar(100),
+ps3	varchar(100),
+pn3	varchar(100),
+pp3	varchar(100),
+effort	varchar(100),
+speak	varchar(100),
+readss	varchar(100),
+writes	varchar(100),
+s1	varchar(100),
+s2	varchar(100),
+s3	varchar(100),
+s4	varchar(100),
+s5	varchar(100),
+s6	varchar(100),
+s7	varchar(100),
+s8	varchar(100),
+s9	varchar(100),
+s10	varchar(100),
+s11	varchar(100),
+a1	varchar(100),
+a2	varchar(100),
+a3	varchar(100),
+a4	varchar(100),
+a5	varchar(100),
+a6	varchar(100),
+a7	varchar(100),
+a8	varchar(100),
+a9	varchar(100),
+a10	varchar(100),
+b1	varchar(100),
+b2	varchar(100),
+b3	varchar(100),
+b4	varchar(100),
+b5	varchar(100),
+b6	varchar(100),
+b7	varchar(100),
+b8	varchar(100),
+b9	varchar(100),
+b10	varchar(100),
+c1	varchar(100),
+c2	varchar(100),
+c3	varchar(100),
+c4	varchar(100),
+c5	varchar(100),
+c6	varchar(100),
+c7	varchar(100),
+c8	varchar(100),
+c9	varchar(100),
+c10	varchar(100),
+d1	varchar(100),
+d2	varchar(100),
+d3	varchar(100),
+d4	varchar(100),
+d5	varchar(100),
+d6	varchar(100),
+d7	varchar(100),
+d8	varchar(100),
+d9	varchar(100),
+d10	varchar(100),
+e1	varchar(100),
+e2	varchar(100),
+e3	varchar(100),
+e4	varchar(100),
+e5	varchar(100),
+e6	varchar(100),
+e7	varchar(100),
+e8	varchar(100),
+e9	varchar(100),
+e10	varchar(100),
+f1	varchar(100),
+f2	varchar(100),
+f3	varchar(100),
+f4	varchar(100),
+f5	varchar(100),
+f6	varchar(100),
+f7	varchar(100),
+f8	varchar(100),
+f9	varchar(100),
+f10	varchar(100),
+g1	varchar(100),
+g2	varchar(100),
+g3	varchar(100),
+g4	varchar(100),
+g5	varchar(100),
+g6	varchar(100),
+g7	varchar(100),
+g8	varchar(100),
+g9	varchar(100),
+g10	varchar(100),
+h1	varchar(100),
+h2	varchar(100),
+h3	varchar(100),
+h4	varchar(100),
+h5	varchar(100),
+h6	varchar(100),
+h7	varchar(100),
+h8	varchar(100),
+h9	varchar(100),
+h10	varchar(100),
+	
+	
+la1	varchar(100),
+la2	varchar(100),
+la3	varchar(100),
+la4	varchar(100),
+la5	varchar(100),
+la6	varchar(100),
+la7	varchar(100),
+la8	varchar(100),
+la9	varchar(100),
+la10	varchar(100),
+lb1	varchar(100),
+lb2	varchar(100),
+lb3	varchar(100),
+lb4	varchar(100),
+lb5	varchar(100),
+lb6	varchar(100),
+lb7	varchar(100),
+lb8	varchar(100),
+lb9	varchar(100),
+lb10	varchar(100),
+	
+lc1	varchar(100),
+lc2	varchar(100),
+lc3	varchar(100),
+lc4	varchar(100),
+lc5	varchar(100),
+lc6	varchar(100),
+lc7	varchar(100),
+lc8	varchar(100),
+lc9	varchar(100),
+lc10	varchar(100),
+	
+ld1	varchar(100),
+ld2	varchar(100),
+ld3	varchar(100),
+ld4	varchar(100),
+ld5	varchar(100),
+ld6	varchar(100),
+ld7	varchar(100),
+ld8	varchar(100),
+ld9	varchar(100),
+ld10	varchar(100),
+	
+le1	varchar(100),
+le2	varchar(100),
+le3	varchar(100),
+le4	varchar(100),
+le5	varchar(100),
+le6	varchar(100),
+le7	varchar(100),
+le8	varchar(100),
+le9	varchar(100),
+le10	varchar(100),
+	
+lf1	varchar(100),
+lf2	varchar(100),
+lf3	varchar(100),
+lf4	varchar(100),
+lf5	varchar(100),
+lf6	varchar(100),
+lf7	varchar(100),
+lf8	varchar(100),
+lf9	varchar(100),
+lf10	varchar(100),
+	
+pa1	varchar(100),
+pa2	varchar(100),
+pa3	varchar(100),
+pa4	varchar(100),
+	
+pb1	varchar(100),
+pb2	varchar(100),
+pb3	varchar(100),
+pb4	varchar(100),
+	
+pc1	varchar(100),
+pc2	varchar(100),
+pc3	varchar(100),
+pc4	varchar(100),
+	
+pd1	varchar(100),
+pd2	varchar(100),
+pd3	varchar(100),
+pd4	varchar(100),
+	
+	
+pe1	varchar(100),
+pe2	varchar(100),
+pe3	varchar(100),
+pe4	varchar(100),
+	
+pf1	varchar(100),
+pf2	varchar(100),
+pf3	varchar(100),
+pf4	varchar(100));
+---------------------post
+
+
+createtablereg(
+$_POST['name	varchar(100),
+$_POSTpost	varchar(100),
+$_POSTdoj	varchar(100),
+$_POSTdo	varchar(100),
+ps1	varchar(100),
+pn1	varchar(100),
+pp1	varchar(100),
+ps2	varchar(100),
+pn2	varchar(100),
+pp2	varchar(100),
+ps3	varchar(100),
+pn3	varchar(100),
+pp3	varchar(100),
+effort	varchar(100),
+speak	varchar(100),
+readss	varchar(100),
+writes	varchar(100),
+s1	varchar(100),
+s2	varchar(100),
+s3	varchar(100),
+s4	varchar(100),
+s5	varchar(100),
+s6	varchar(100),
+s7	varchar(100),
+s8	varchar(100),
+s9	varchar(100),
+s10	varchar(100),
+s11	varchar(100),
+a1	varchar(100),
+a2	varchar(100),
+a3	varchar(100),
+a4	varchar(100),
+a5	varchar(100),
+a6	varchar(100),
+a7	varchar(100),
+a8	varchar(100),
+a9	varchar(100),
+a10	varchar(100),
+b1	varchar(100),
+b2	varchar(100),
+b3	varchar(100),
+b4	varchar(100),
+b5	varchar(100),
+b6	varchar(100),
+b7	varchar(100),
+b8	varchar(100),
+b9	varchar(100),
+b10	varchar(100),
+c1	varchar(100),
+c2	varchar(100),
+c3	varchar(100),
+c4	varchar(100),
+c5	varchar(100),
+c6	varchar(100),
+c7	varchar(100),
+c8	varchar(100),
+c9	varchar(100),
+c10	varchar(100),
+d1	varchar(100),
+d2	varchar(100),
+d3	varchar(100),
+d4	varchar(100),
+d5	varchar(100),
+d6	varchar(100),
+d7	varchar(100),
+d8	varchar(100),
+d9	varchar(100),
+d10	varchar(100),
+e1	varchar(100),
+e2	varchar(100),
+e3	varchar(100),
+e4	varchar(100),
+e5	varchar(100),
+e6	varchar(100),
+e7	varchar(100),
+e8	varchar(100),
+e9	varchar(100),
+e10	varchar(100),
+f1	varchar(100),
+f2	varchar(100),
+f3	varchar(100),
+f4	varchar(100),
+f5	varchar(100),
+f6	varchar(100),
+f7	varchar(100),
+f8	varchar(100),
+f9	varchar(100),
+f10	varchar(100),
+g1	varchar(100),
+g2	varchar(100),
+g3	varchar(100),
+g4	varchar(100),
+g5	varchar(100),
+g6	varchar(100),
+g7	varchar(100),
+g8	varchar(100),
+g9	varchar(100),
+g10	varchar(100),
+h1	varchar(100),
+h2	varchar(100),
+h3	varchar(100),
+h4	varchar(100),
+h5	varchar(100),
+h6	varchar(100),
+h7	varchar(100),
+h8	varchar(100),
+h9	varchar(100),
+h10	varchar(100),
+	
+	
+la1	varchar(100),
+la2	varchar(100),
+la3	varchar(100),
+la4	varchar(100),
+la5	varchar(100),
+la6	varchar(100),
+la7	varchar(100),
+la8	varchar(100),
+la9	varchar(100),
+la10	varchar(100),
+lb1	varchar(100),
+lb2	varchar(100),
+lb3	varchar(100),
+lb4	varchar(100),
+lb5	varchar(100),
+lb6	varchar(100),
+lb7	varchar(100),
+lb8	varchar(100),
+lb9	varchar(100),
+lb10	varchar(100),
+	
+lc1	varchar(100),
+lc2	varchar(100),
+lc3	varchar(100),
+lc4	varchar(100),
+lc5	varchar(100),
+lc6	varchar(100),
+lc7	varchar(100),
+lc8	varchar(100),
+lc9	varchar(100),
+lc10	varchar(100),
+	
+ld1	varchar(100),
+ld2	varchar(100),
+ld3	varchar(100),
+ld4	varchar(100),
+ld5	varchar(100),
+ld6	varchar(100),
+ld7	varchar(100),
+ld8	varchar(100),
+ld9	varchar(100),
+ld10	varchar(100),
+	
+le1	varchar(100),
+le2	varchar(100),
+le3	varchar(100),
+le4	varchar(100),
+le5	varchar(100),
+le6	varchar(100),
+le7	varchar(100),
+le8	varchar(100),
+le9	varchar(100),
+le10	varchar(100),
+	
+lf1	varchar(100),
+lf2	varchar(100),
+lf3	varchar(100),
+lf4	varchar(100),
+lf5	varchar(100),
+lf6	varchar(100),
+lf7	varchar(100),
+lf8	varchar(100),
+lf9	varchar(100),
+lf10	varchar(100),
+	
+pa1	varchar(100),
+pa2	varchar(100),
+pa3	varchar(100),
+pa4	varchar(100),
+	
+pb1	varchar(100),
+pb2	varchar(100),
+pb3	varchar(100),
+pb4	varchar(100),
+	
+pc1	varchar(100),
+pc2	varchar(100),
+pc3	varchar(100),
+pc4	varchar(100),
+	
+pd1	varchar(100),
+pd2	varchar(100),
+pd3	varchar(100),
+pd4	varchar(100),
+	
+	
+pe1	varchar(100),
+pe2	varchar(100),
+pe3	varchar(100),
+pe4	varchar(100),
+	
+$_POSTpf1	varchar(100),
+$_POSTpf2	varchar(100),
+$_POSTpf3	varchar(100),
+pf4	varchar(100));
+
+
+
+-----------------------------------------------------------------------------------------------------------------
+$_POST['	name	]
+$_POST['	post	]
+$_POST['	doj	]
+$_POST['	do	]
+$_POST['	ps1	]
+$_POST['	pn1	]
+$_POST['	pp1	]
+$_POST['	ps2	]
+$_POST['	pn2	]
+$_POST['	pp2	]
+$_POST['	ps3	]
+$_POST['	pn3	]
+$_POST['	pp3	]
+$_POST['	effort	]
+$_POST['	speak	]
+$_POST['	read	]
+$_POST['	write	]
+$_POST['	s1	]
+$_POST['	s2	]
+$_POST['	s3	]
+$_POST['	s4	]
+$_POST['	s5	]
+$_POST['	s6	]
+$_POST['	s7	]
+$_POST['	s8	]
+$_POST['	s9	]
+$_POST['	s10	]
+$_POST['	s11	]
+$_POST['	a1	]
+$_POST['	a2	]
+$_POST['	a3	]
+$_POST['	a4	]
+$_POST['	a5	]
+$_POST['	a6	]
+$_POST['	a7	]
+$_POST['	a8	]
+$_POST['	a9	]
+$_POST['	a10	]
+$_POST['	b1	]
+$_POST['	b2	]
+$_POST['	b3	]
+$_POST['	b4	]
+$_POST['	b5	]
+$_POST['	b6	]
+$_POST['	b7	]
+$_POST['	b8	]
+$_POST['	b9	]
+$_POST['	b10	]
+$_POST['	c1	]
+$_POST['	c2	]
+$_POST['	c3	]
+$_POST['	c4	]
+$_POST['	c5	]
+$_POST['	c6	]
+$_POST['	c7	]
+$_POST['	c8	]
+$_POST['	c9	]
+$_POST['	c10	]
+$_POST['	d1	]
+$_POST['	d2	]
+$_POST['	d3	]
+$_POST['	d4	]
+$_POST['	d5	]
+$_POST['	d6	]
+$_POST['	d7	]
+$_POST['	d8	]
+$_POST['	d9	]
+$_POST['	d10	]
+$_POST['	e1	]
+$_POST['	e2	]
+$_POST['	e3	]
+$_POST['	e4	]
+$_POST['	e5	]
+$_POST['	e6	]
+$_POST['	e7	]
+$_POST['	e8	]
+$_POST['	e9	]
+$_POST['	e10	]
+$_POST['	f1	]
+$_POST['	f2	]
+$_POST['	f3	]
+$_POST['	f4	]
+$_POST['	f5	]
+$_POST['	f6	]
+$_POST['	f7	]
+$_POST['	f8	]
+$_POST['	f9	]
+$_POST['	f10	]
+$_POST['	g1	]
+$_POST['	g2	]
+$_POST['	g3	]
+$_POST['	g4	]
+$_POST['	g5	]
+$_POST['	g6	]
+$_POST['	g7	]
+$_POST['	g8	]
+$_POST['	g9	]
+$_POST['	g10	]
+$_POST['	h1	]
+$_POST['	h2	]
+$_POST['	h3	]
+$_POST['	h4	]
+$_POST['	h5	]
+$_POST['	h6	]
+$_POST['	h7	]
+$_POST['	h8	]
+$_POST['	h9	]
+$_POST['	h10	]
+$_POST['	la1	]
+$_POST['	la2	]
+$_POST['	la3	]
+$_POST['	la4	]
+$_POST['	la5	]
+$_POST['	la6	]
+$_POST['	la7	]
+$_POST['	la8	]
+$_POST['	la9	]
+$_POST['	la10	]
+$_POST['	lb1	]
+$_POST['	lb2	]
+$_POST['	lb3	]
+$_POST['	lb4	]
+$_POST['	lb5	]
+$_POST['	lb6	]
+$_POST['	lb7	]
+$_POST['	lb8	]
+$_POST['	lb9	]
+$_POST['	lb10	]
+$_POST['	lc1	]
+$_POST['	lc2	]
+$_POST['	lc3	]
+$_POST['	lc4	]
+$_POST['	lc5	]
+$_POST['	lc6	]
+$_POST['	lc7	]
+$_POST['	lc8	]
+$_POST['	lc9	]
+$_POST['	lc10	]
+$_POST['	ld1	]
+$_POST['	ld2	]
+$_POST['	ld3	]
+$_POST['	ld4	]
+$_POST['	ld5	]
+$_POST['	ld6	]
+$_POST['	ld7	]
+$_POST['	ld8	]
+$_POST['	ld9	]
+$_POST['	ld10	]
+$_POST['	le1	]
+$_POST['	le2	]
+$_POST['	le3	]
+$_POST['	le4	]
+$_POST['	le5	]
+$_POST['	le6	]
+$_POST['	le7	]
+$_POST['	le8	]
+$_POST['	le9	]
+$_POST['	le10	]
+$_POST['	lf1	]
+$_POST['	lf2	]
+$_POST['	lf3	]
+$_POST['	lf4	]
+$_POST['	lf5	]
+$_POST['	lf6	]
+$_POST['	lf7	]
+$_POST['	lf8	]
+$_POST['	lf9	]
+$_POST['	lf10	]
+$_POST['	pa1	]
+$_POST['	pa2	]
+$_POST['	pa3	]
+$_POST['	pa4	]
+$_POST['	pb1	]
+$_POST['	pb2	]
+$_POST['	pb3	]
+$_POST['	pb4	]
+$_POST['	pc1	]
+$_POST['	pc2	]
+$_POST['	pc3	]
+$_POST[' pc4	]
+$_POST['	pd1	]
+$_POST['	pd2	]
+$_POST['	pd3	]
+$_POST['	pd4	]
+$_POST['	pe1	]
+$_POST['	pe2	]
+$_POST['	pe3	]
+$_POST['	pe4	]
+$_POST['	pf1	]
+$_POST['	pf2	]
+$_POST['	pf3	]
+$_POST['	pf4	]

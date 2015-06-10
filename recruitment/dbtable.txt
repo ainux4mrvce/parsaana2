@@ -1,0 +1,66 @@
+------------------------------------------------Database Table Queries----------------------------------------------------
+
+
+======LOGIN======
+
+mysql> create table login(username varchar(20),password varchar(20));
+
+
+mysql> insert into login values("Principal","principal");
+
+
+mysql> insert into login values("Advisor","advisor");
+
+
+mysql> insert into login values("Vice Principal","vice");
+
+
+mysql> insert into login values("Registrar","registrar");
+
+
+mysql> insert into login values("VTU Nominee","vtu");
+
+
+mysql> insert into login values("HOD","hod");
+
+
+
+======REGISTRATION======
+
+mysql> create table registration(appid int AUTO_INCREMENT PRIMARY KEY,
+ post varchar(50),dept varchar(50),job varchar(50),
+ fname varchar(50),lname varchar(50),
+ ppost varchar(50),
+ dob varchar(50),age varchar(50),
+ address varchar(50),
+ phone varchar(50),email varchar(50),
+ martial_status varchar(50),nofsons varchar(50),nofdaughters varchar(50),nofparents varchar(50),
+
+ degree varchar(50),date1 varchar(50),university varchar(50),college varchar(50),agg varchar(50),
+ pdegree varchar(50),pdate varchar(50),puniversity varchar(50),pcollege varchar(50),pagg varchar(50),
+ udegree varchar(50),udate varchar(50),uuniversity varchar(50),ucollege varchar(50),uagg varchar(50),
+ pgdegree varchar(50),pgdate varchar(50),pguniversity varchar(50),pgcollege varchar(50),pgagg varchar(50),
+ phdegree varchar(50),phdate varchar(50),phuniversity varchar(50),phcollege varchar(50),phagg varchar(50),
+ odegree varchar(50),odate varchar(50),ouniversity varchar(50),ocollege varchar(50),oagg varchar(50),
+ asp varchar(50),pc varchar(50),nofrpe varchar(50),
+ nofrpp varchar(50),comp_skills varchar(50),lang varchar(50),
+
+ instnamea varchar(50),desga varchar(50),fdatea varchar(50),tdatea varchar(50),
+ instnameb varchar(50),desgb varchar(50),fdateb varchar(50),tdateb varchar(50),
+ instnamec varchar(50),desgc varchar(50),fdatec varchar(50),tdatec varchar(50),
+
+ noftexp varchar(50),nofiexp varchar(50),nofrexp varchar(50),
+
+ hob varchar(50),heal varchar(50),
+ ref1 varchar(50),con1 varchar(50),
+ ref2 varchar(50),con2 varchar(50));
+
+
+======SAVE_REVIEWED=====
+
+create table save_reviewed(appid int PRIMARY KEY,fname varchar(50),degree varchar(50),date1 varchar(50),university varchar(50),college varchar(50),agg varchar(50),
+ pdegree varchar(50),pdate varchar(50),puniversity varchar(50),pcollege varchar(50),pagg varchar(50),
+ udegree varchar(50),udate varchar(50),uuniversity varchar(50),ucollege varchar(50),uagg varchar(50),
+ pgdegree varchar(50),pgdate varchar(50),pguniversity varchar(50),pgcollege varchar(50),pgagg varchar(50),
+ phdegree varchar(50),phdate varchar(50),phuniversity varchar(50),phcollege varchar(50),phagg varchar(50),
+ odegree varchar(50),odate varchar(50),ouniversity varchar(50),ocollege varchar(50),oagg varchar(50),noftexp varchar(50),nofiexp varchar(50),nofrexp varchar(50),evalmarks int,remarks varchar(200));
